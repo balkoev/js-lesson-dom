@@ -1,6 +1,10 @@
 # js-lesson-dom
-# Код из youtube видео - https://www.youtube.com/watch?v=4nq-0QUY1ZA
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=4nq-0QUY1ZA
+" target="_blank"><img src="http://img.youtube.com/vi/4nq-0QUY1ZA/0.jpg" 
+alt="Что такое DOM?" width="240" height="180" border="10" /></a>
+
+```javascript
 let cases = document.getElementsByClassName("maincounter-number")[0].innerText
 let numCases = Number(cases.replace(/,/g, ''))
 
@@ -29,3 +33,4 @@ let myStopFunction = () => {
 }
 
 let myVar = setInterval(savePlanet, 1)
+```
